@@ -1,24 +1,24 @@
 import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
-import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
+import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaHtml5, FaCss3} from "react-icons/fa";
+import { DiJavascript1} from "react-icons/di";
+import {SiChakraui, SiPostman, SiVercel} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
-        'C++': <CgCPlusPlus/>,
-        Postman: <SiPostman/>,
-        React: <FaReact/>,
-        Javascript: <DiJavascript1/>,
-        Node : <DiNodejs/>,
-        Express : <SiExpress/>,
-        MongoDb : <SiMongodb/>,
-        Git : <FaGitAlt/>,
-        Github : <FaGithub/>,
-        Npm : <FaNpm/>,
-        Figma : <FaFigma/>,
-        Bootstrap: <FaBootstrap/>,
-        Vercel : <SiVercel/>
+      Postman: <SiPostman/>,
+      React: <FaReact/>,
+      Javascript: <DiJavascript1/>,
+      Redux : <TbBrandRedux/>,
+      HTML : <FaHtml5/>,
+      CSS : <FaCss3 />,
+      Git : <FaGitAlt/>,
+      Github : <FaGithub/>,
+      Npm : <FaNpm/>,
+      Figma : <FaFigma/>,
+      Bootstrap: <FaBootstrap/>,
+      Vercel : <SiVercel/>,
+      ChakraUI : <SiChakraui/>
     }
     
   return (

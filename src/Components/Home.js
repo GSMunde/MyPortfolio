@@ -3,8 +3,8 @@ import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
 import {CiCoffeeCup} from "react-icons/ci";
+import Avatar from "../Images/Avatar.jpg"
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>I'M <b>Geetanjali Munde</b></h1>
           <Typed/>   
         </div>
 
@@ -33,10 +33,9 @@ const Home = () => {
             that impacts lives. 
             I want to do work that challenges me as a developer & work that I can 
             be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+            I am fluent in <b>React js</b>, <b>Redux</b>, <b>Javacsript</b>, <b>HTML</b>, <b>CSS</b> ,
+             I plan to learn <b>Backend</b>, <b>Next.js</b>, <b>Vue js</b>, <b>Python</b> and<b> Typescript</b> in the near future. <br /><br />
+            Also, I love <b>Tea</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>
         <Tilt>
