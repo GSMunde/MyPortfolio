@@ -12,6 +12,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     AmazonCloneDesc : "The Amazon Frontend Clone Project is a web development that attempts to replicate the user interface and design of Amazon's popular e-commerce platform using a combination of HTML, CSS and JavaScript. The goal is to master front-end skills by cloning websites as closely as possible.",
     AmazonCloneGithub : "https://github.com/GSMunde/Amazon-Clone",
     AmazonCloneWebsite : "https://my-amaazon-clone.vercel.app/",
+
+    SwiggyCloneDesc : "The Swiggy Frontend Clone Project is a web development initiative aimed at replicating the user interface and design of Swiggy’s popular food delivery platform using HTML, CSS, JavaScript, React.js and Tailwind CSS. This project focuses on honing frontend development skills by closely mirroring the layout, design, and functionality of the original website.",
+    SwiggyCloneGithub : "https://github.com/GSMunde/Swiggy",
+    SwiggyCloneWebsite : "https://swiggy-clone-gray.vercel.app/",
   }
 
   let show ='';
