@@ -3,6 +3,7 @@ import ProjectBox from './ProjectBox';
 import MyBoutique from "../Images/MyBoutque.png"
 import AmazonClone from "../Images/AmazonClone.png"
 import SwiggyClone from "../Images/SwiggyClone.png"
+import TaylorMeals from "../Images/TaylorMeals.png"
 
 
 const Projects = () => {
@@ -13,6 +14,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={MyBoutique} projectName="MyBoutique" />
         <ProjectBox projectPhoto={AmazonClone} projectName="AmazonClone" />
         <ProjectBox projectPhoto={SwiggyClone} projectName="SwiggyClone" />
+        <ProjectBox projectPhoto={TaylorMeals} projectName="TaylorMeals" />
       </div>
 
     </div>

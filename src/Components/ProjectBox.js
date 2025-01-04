@@ -16,6 +16,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     SwiggyCloneDesc : "The Swiggy Frontend Clone Project is a web development initiative aimed at replicating the user interface and design of Swiggy’s popular food delivery platform using HTML, CSS, JavaScript, React.js and Tailwind CSS. This project focuses on honing frontend development skills by closely mirroring the layout, design, and functionality of the original website.",
     SwiggyCloneGithub : "https://github.com/GSMunde/Swiggy",
     SwiggyCloneWebsite : "https://swiggy-clone-gray.vercel.app/",
+
+    TaylorMealsDesc : "A web application designed for Taylor, a busy professional, to simplify finding recipes based on available ingredients, time constraints, or preferences. Key features include: Ingredient-based recipe search using TheMealDB API. Interactive map showing the recipe's origin.",
+    TaylorMealsGithub : "https://github.com/GSMunde/Taylor_Meals",
+    TaylorMealsWebsite : "https://taylor-meals.vercel.app/",
   }
 
   let show ='';
